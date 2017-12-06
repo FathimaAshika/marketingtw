@@ -1,0 +1,111 @@
+.input-mysize{
+    width: 375px;
+}
+body {
+    background-color: #ffffff;
+    font: 13px/normal Arial;
+    color: #565656;
+}
+
+a {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: #2f5a84;
+    text-decoration: blink;
+}
+
+p {
+    font-family: Arial;
+    font-size: 13px;
+}
+
+td {
+    vertical-align: text-top;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+.page-width {
+    margin: 0 auto;
+    width: 800px;
+    height: inherit;
+    float: left;
+    text-align: left;
+}
+
+.textbox {
+    color: #ffffff;
+    border: 1px solid #af3339;
+    background-color: #872427;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 2px;
+}
+
+#page-header {
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 80px;
+    overflow: hidden;
+    background-color: #ffffff;
+    background-repeat: repeat-x;
+    text-align: left;
+}
+
+#page-footer {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 20px;
+    overflow: hidden;
+    background-color: #ffffff;
+    background-repeat: repeat-x;
+    text-align: left;
+    float: left;
+    clear: both;
+}
+
+#page-logo {
+    margin-top: 20px;
+    margin-left: 0px;
+    float: left;
+    display: inline;
+}
+
+#page-menu {
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+#page-form {
+    margin-top: 10px;
+    margin-left: 15px;
+    float: left;
+    clear: both;
+    height: 300px;
+    width: 600px;
+}
+
+#content-header {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    clear: both;
+}
+
+#content-title {
+    text-align: center;
+    font-weight: bold;
+    background: #2f5a84;
+    color: #ffffff;
+}
+
+#content {
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #e7edeb;
+    
+}

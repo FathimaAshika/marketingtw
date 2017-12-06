@@ -1,0 +1,19 @@
+<?php
+
+return [
+
+	'driver' => env('smtp'),
+
+	'host' => env('smtp.tutorwizard.lk'),
+	'port' => env(26),
+
+	'from' => ['address' => 'info@tutorwizard.lk', 'name' => 'Registration'],
+
+	'encryption' => env('tls'),
+
+	'username' => env('MAIL_USERNAME'),
+
+	'password' => env('MAIL_PASSWORD'),
+	'sendmail' => '/usr/sbin/sendmail -bs',
+
+];
