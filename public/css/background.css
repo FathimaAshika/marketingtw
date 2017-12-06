@@ -172,7 +172,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 button                             { width: 100px; background-color: #87ccba; color: #2e7587; border: 0 none; border-radius: 1px; cursor: pointer; margin: 0 5px; padding: 8px; font-size: 14px; }
 button:hover                       { background: #63bda5; }
 
-.main_container_challenge          { height: 100%; width: 100%; background-image: url(../images/background.jpg); background-repeat: no-repeat; position: absolute; left: 0; background-size: cover;}
+.main_container_challenge          { height: 100%; width: 100%; background-image: url(../images/background.jpg); background-repeat: no-repeat; background-size: cover;}
 // .bg_inner                          { width: 100%; height: 100%; background-image: url(../images/vector-smart-object.png); background-repeat: no-repeat; position: absolute; left: 0; background-size: 70%;}
 .challenge_content                 { width: 600px; position: relative; margin: auto;}
 .challenge_content_first           { width: 800px; position: relative; margin: auto; display: table;}
@@ -291,15 +291,27 @@ letter-spacing: 2px;
     background: #51b59b
 }
 .sp{ margin-right: 15px; }
+
 @media only screen and (max-width: 767px) {
 
     .orginal_content, .change_content   { padding: 0; }
+    .inner_content                      { padding: 100px 0;}
+    .challenge_content                  { width: 100%; position: relative; margin: auto;}
+    .challenge_content_first            { width: 100%; position: relative; margin: auto; display: table;}
+    .challengetitle                     { padding:0; letter-spacing: 1px; line-height: 30px; font-size: 25px;}
+    .enterdetails                       { margin: 0; letter-spacing: 2px; line-height: 30px;}
 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
-    .container { width: 800px; }
+    .maincontent { width: 100% !important; }
+    .challenge_content                  { width: 100%; position: relative; margin: auto;}
+    .challenge_content_first            { width: 100%; position: relative; margin: auto; display: table;}
 
+}
+
+@media only screen and (min-width: 1024px) {
+  .maincontent { width: 100% !important; }
 }
 

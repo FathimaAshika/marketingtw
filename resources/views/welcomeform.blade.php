@@ -7,7 +7,7 @@
         <div class="main_container_challenge">
             <div class="bg_inner"></div>
             <div class="container-fluid">
-                <div class="container">
+                <div class="container maincontent">
                     <div class="challenge_content">
                         <div class="inner_content">
                             <div class="row wow bounceIn" data-wow-duration="1s" data-wow-delay="1s">

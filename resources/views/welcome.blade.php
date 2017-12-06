@@ -7,7 +7,7 @@
         <div class="main_container_challenge">
             <div class="bg_inner"></div>
             <div class="container-fluid">
-                <div class="container">
+                <div class="container maincontent">
                     <div class="challenge_content_first">
                         <div class="innercontent">
                             <h1 class="challengetitle wow jackInTheBox" data-wow-duration="2s" data-wow-delay="1s"> Are you ready for the Challenge? </h1>   
